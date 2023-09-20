@@ -1,0 +1,26 @@
+body{
+    user-select: none;
+    background-color:lavender ;
+}
+
+h1 {
+      font-size: 50px;
+      font-family: sans-serif;
+      text-align: center;
+}
+
+table {
+   text-align: center;
+   justify-content: center;
+   width: 40%;
+}
+div {
+    justify-content: center;
+    display: flex;
+}
+th{
+    background-color: aqua;
+}
+tr:nth-child(even){
+    background-color: aquamarine;
+}
